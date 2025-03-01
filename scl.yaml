@@ -1,0 +1,29 @@
+- name: math
+  dir: math/
+  files:
+    - title: qpow
+      fname: qpow.cpp
+    - title: 基于qpow的组合数
+      fname: 基于qpow的组合数.cpp
+- name: 字符串
+  dir: 字符串/
+  files:
+    - title: kmp
+      fname: kmp.cpp
+    - title: hash
+      fname: hash.cpp
+    - title: exkmp
+      fname: exkmp.cpp
+    - title: manacher
+      fname: manacher.cpp
+    - title: trie
+      fname: trie.cpp
+    - title: 最小表示法
+      fname: 最小表示法.cpp
+- name: 数据结构
+  dir: 数据结构/
+  files:
+    - title: dsu
+      fname: dsu.cpp
+    - title: SegementTree\_sum
+      fname: SegementTree_sum.hpp

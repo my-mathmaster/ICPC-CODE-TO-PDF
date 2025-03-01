@@ -40,4 +40,3 @@
    ```
 
    由于每一行代码的fingerprint使用了label，在添加新代码后需要编译两次（Makefile中已经默认编译两次）。
-# ICPC-CODE-TO-PDF
