@@ -1,29 +1,210 @@
-- name: math
-  dir: math/
+- name: Ds
+  dir: Ds/
   files:
-    - title: qpow
-      fname: qpow.cpp
-    - title: 基于qpow的组合数
-      fname: 基于qpow的组合数.cpp
-- name: 字符串
-  dir: 字符串/
-  files:
-    - title: kmp
-      fname: kmp.cpp
-    - title: hash
-      fname: hash.cpp
-    - title: exkmp
-      fname: exkmp.cpp
-    - title: manacher
-      fname: manacher.cpp
-    - title: trie
-      fname: trie.cpp
-    - title: 最小表示法
-      fname: 最小表示法.cpp
-- name: 数据结构
-  dir: 数据结构/
-  files:
+    - title: HLD
+      fname: HLD.cpp
+    - title: LCA
+      fname: LCA.cpp
+    - title: LCARMQ
+      fname: LCARMQ.cpp
+    - title: LCA\_HLD
+      fname: LCA_HLD.cpp
+    - title: Miller\_Robin
+      fname: Miller_Robin.cpp
+    - title: divide\_CDQ
+      fname: divide_CDQ.cpp
+    - title: divide\_dot
+      fname: divide_dot.cpp
     - title: dsu
       fname: dsu.cpp
-    - title: SegementTree\_sum
-      fname: SegementTree_sum.hpp
+    - title: dsu\_del
+      fname: dsu_del.cpp
+    - title: dsu\_per
+      fname: dsu_per.cpp
+    - title: factorize\_i64
+      fname: factorize_i64.cpp
+    - title: fenwick
+      fname: fenwick.cpp
+    - title: hashtree
+      fname: hashtree.cpp
+    - title: hashtree\_RT
+      fname: hashtree_RT.cpp
+    - title: k\_ancestor\_O(1)
+      fname: k_ancestor_O(1).cpp
+    - title: segtree
+      fname: segtree.cpp
+    - title: segtree\_ps
+      fname: segtree_ps.cpp
+    - title: segtreelazy0base
+      fname: segtreelazy0base.cpp
+    - title: segtreelazy1base
+      fname: segtreelazy1base.cpp
+    - title: segtreelazy\_xkm
+      fname: segtreelazy_xkm.cpp
+    - title: st
+      fname: st.cpp
+    - title: st\_o(n)
+      fname: st_o(n).cpp
+    - title: tree\_virtual
+      fname: tree_virtual.cpp
+    - title: trie\_per
+      fname: trie_per.cpp
+    - title: twoheap
+      fname: twoheap.cpp
+    - title: twoheaplazy
+      fname: twoheaplazy.cpp
+    - title: 笛卡尔树
+      fname: 笛卡尔树.cpp
+- name: Graph
+  dir: Graph/
+  files:
+    - title: 2-sat
+      fname: 2-sat.cpp
+    - title: dfs判环的具体路径
+      fname: dfs判环的具体路径.cpp
+    - title: 匈牙利
+      fname: 匈牙利.cpp
+    - title: 无向图判环
+      fname: 无向图判环.cpp
+    - title: 最短路\_迪杰斯特拉
+      fname: 最短路_迪杰斯特拉.cpp
+    - title: 有向图判环
+      fname: 有向图判环.cpp
+- name: Math
+  dir: Math/
+  files:
+    - title: Frac
+      fname: Frac.cpp
+    - title: Gauss
+      fname: Gauss.cpp
+    - title: Gauss\_matrix
+      fname: Gauss_matrix.cpp
+    - title: Gauss\_mod
+      fname: Gauss_mod.cpp
+    - title: Gauss\_xor
+      fname: Gauss_xor.cpp
+    - title: Gauss\_xor\_bitset
+      fname: Gauss_xor_bitset.cpp
+    - title: Gauss\_xor\_matrix
+      fname: Gauss_xor_matrix.cpp
+    - title: Miller\_Robin
+      fname: Miller_Robin.cpp
+    - title: bigint
+      fname: bigint.cpp
+    - title: comb
+      fname: comb.cpp
+    - title: comb\_Z
+      fname: comb_Z.cpp
+    - title: det
+      fname: det.cpp
+    - title: int128
+      fname: int128.cpp
+    - title: linerbasis
+      fname: linerbasis.cpp
+    - title: matrix
+      fname: matrix.cpp
+    - title: matrix\_tree
+      fname: matrix_tree.cpp
+    - title: modint
+      fname: modint.cpp
+    - title: modll
+      fname: modll.cpp
+    - title: pre\_linerbasis
+      fname: pre_linerbasis.cpp
+    - title: prelinerbasis\_tree
+      fname: prelinerbasis_tree.cpp
+    - title: simpson
+      fname: simpson.cpp
+- name: Misc
+  dir: Misc/
+  files:
+    - title: 坐标转换
+      fname: 坐标转换.cpp
+    - title: 小数保留问题
+      fname: 小数保留问题.cpp
+    - title: 日期问题
+      fname: 日期问题.cpp
+    - title: 表达式求值
+      fname: 表达式求值.cpp
+    - title: 魔方
+      fname: 魔方.cpp
+- name: STL
+  dir: STL/
+  files:
+    - title: \_\_int128\_RW
+      fname: __int128_RW.cpp
+    - title: \_\_int128\_gcd
+      fname: __int128_gcd.cpp
+    - title: \_\_int128\_iostream
+      fname: __int128_iostream.cpp
+    - title: chmax
+      fname: chmax.cpp
+    - title: custom\_hash
+      fname: custom_hash.cpp
+    - title: div
+      fname: div.cpp
+    - title: pair\_hash
+      fname: pair_hash.cpp
+    - title: sqrt
+      fname: sqrt.cpp
+- name: String
+  dir: String/
+  files:
+    - title: AC
+      fname: AC.cpp
+    - title: EXKMP
+      fname: EXKMP.cpp
+    - title: Hash
+      fname: Hash.cpp
+    - title: KMP
+      fname: KMP.cpp
+    - title: MINSHOW
+      fname: MINSHOW.cpp
+    - title: Manacher
+      fname: Manacher.cpp
+    - title: PAM
+      fname: PAM.cpp
+    - title: SA
+      fname: SA.cpp
+    - title: SAM
+      fname: SAM.cpp
+    - title: Trie\_01
+      fname: Trie_01.cpp
+    - title: Trie\_per
+      fname: Trie_per.cpp
+    - title: Trie\_string
+      fname: Trie_string.cpp
+- name: geom
+  dir: geom/
+  files:
+    - title: dls
+      fname: dls.cpp
+    - title: 平面最近点对\_分治
+      fname: 平面最近点对_分治.cpp
+- name: other
+  dir: other/
+  files:
+    - title: Compile\_cmd
+      fname: Compile_cmd.cpp
+    - title: debug
+      fname: debug.cpp
+    - title: duipai\_linux
+      fname: duipai_linux.cpp
+    - title: duipai\_win
+      fname: duipai_win.cpp
+    - title: gdbcmd
+      fname: gdbcmd.cpp
+    - title: gen\_data
+      fname: gen_data.cpp
+    - title: random\_real\_prime
+      fname: random_real_prime.cpp
+    - title: template
+      fname: template.cpp
+    - title: template\_region
+      fname: template_region.cpp
+    - title: test\_g++
+      fname: test_g++.cpp
+    - title: test\_speed
+      fname: test_speed.cpp
+    - title: teststack
+      fname: teststack.cpp

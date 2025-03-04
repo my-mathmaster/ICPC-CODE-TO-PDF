@@ -2,7 +2,7 @@ SRCS=$(shell find src/) $(shell find tex/)
 
 main.pdf: $(SRCS) Makefile scl.yaml
 	mkdir -p build/
-	# python3 format.py > scl.yaml	
+	python3 format.py > scl.yaml	
 	python3 gen2.py > build/code.tex
 	cp tex/* build/
 	- cd build && xelatex -interaction=nonstopmode main.tex
